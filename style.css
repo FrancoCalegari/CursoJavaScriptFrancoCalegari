@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	background-color: #eeeeee;
+	background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+}
+
+.fix-nav {
+	width: 100%;
+	max-width: 80%;
+	margin: auto;
+	height: auto;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.nav-menu {
+	background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+	width: 100%;
+	height: auto;
+	border-radius: 0px 0px 15px 15px;
+	box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+	float: right;
+	flex-wrap: wrap;
+}
+
+nav ul li {
+	margin-right: 8px;
+}
+
+nav ul li a {
+	color: #113946;
+	font-size: 1rem;
+	font-weight: 900;
+	text-decoration: none;
+	border: solid #2c2a27 3px;
+	border-radius: 5px;
+	padding: 6px;
+	transition: 400ms;
+}
+
+nav ul li a:hover {
+	background-color: #ffd968;
+	color: #2c2a27;
+	font-size: 1rem;
+	font-weight: 900;
+	transition: 400ms;
+    
+}
+
+section {
+    padding: 15px;
+    background-color: #ffffff;
+    width:  80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    box-shadow: #2c2a27 2px 2px;
+}
