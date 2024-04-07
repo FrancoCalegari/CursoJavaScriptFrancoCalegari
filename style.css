@@ -122,3 +122,21 @@ code {
 	-webkit-box-shadow: .2px 6px 28px 0px rgba(0,0,0,0.3);
 	-moz-box-shadow: .2px 6px 28px 0px rgba(0,0,0,0.3);
 }
+
+
+.btnGlobal {
+	padding: 0.3rem;
+	border-radius: 8px;
+	margin-top: .5rem;
+	transition: 00ms;
+}
+
+.btnGlobal:hover {
+	transform: scale(1.1);
+	transition: 200ms;
+}
+
+.btnGlobal:active {
+	transform: scale(0.8);
+	transition: 200ms;
+}

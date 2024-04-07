@@ -15,7 +15,7 @@
         <nav class="nav-menu">
             <h1 class="logo">JavaScript</h1>
             <ul>
-                <li><a href="#">secciones</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="#">secciones</a></li>
                 <li><a href="#">secciones</a></li>
             </ul>
@@ -23,12 +23,104 @@
     </header>
 
     <section>
-        <h2>Cofrla</h2>
+        <h2>Cofla</h2>
         <div>
-            <p>numero {numbrer = 19}</p>
-            <p>numero {numbrer = 19}</p>
-            <p>numero {numbrer = 19}</p>
-            <pre><code class="javascript">...</code></pre>
+            <div class="problemaA">
+                <p>Problema A:</p>
+                <ul>
+                    <li>-Ingresar el Monto y mostrar el mas caro</li>
+                    <li>-Si hay 2 o mas, mostrar ambos</li>
+                    <li>-indicar vuelto</li>
+                </ul>
+                <p>Texto: 3 chicos de 23 años perfectamente normales entran a una
+                    estan al lado de cada estante con su respectivo helado.
+                    Ellos quieren comprar el helado mas caro que puedan con la
+                    heladeria plata que a comprar un helado pero hay un problema: los precios no
+                    veamos como podemos ayudarlos.
+                    tienen, así que.
+                    <ul>
+                        <li>Roberto tiene $1.5 USD</li>
+                        <li>Pedro tiene $1.7 USD</li>
+                        <li>Cofla tiene $3 USD</li>
+                    </ul>
+                <p>
+                    Los precios de helados son los siguientes:
+                </p>
+
+                <ul>
+                    <li>-Palito de helado de agua: $0.6 USD</li>
+                    <li>-Palito de helado de crema: $1 USD</li>
+                    <li>-Bombón helado marca heladix: $1.6</li>
+                    <li>-Bombón helado marca heladovich: $1.7</li>
+                    <li>-Bombón helado marca helardo: $1.8</li>
+                    <li>-Potecito de helado con confites: $2.9</li>
+                    <li>-Pote de 1/4 KG $2.9 USD</li>
+                </ul>
+                    
+                </p>
+                <button class="btnGlobal" id="btnP1">Comenzar</button>
+                <pre><code class="javascript">
+let cofla = prompt("Cuanto dinero tiene cofla: ");
+// let roberto = prompt("Cuanto dinero tiene cofla: ");
+// let pedro = prompt("Cuanto dinero tiene cofla: ");
+
+// let cofla = 3;
+let roberto = 1.5;
+let pedro = 1.7;
+
+if (cofla >= 0.6 && cofla < 1) {
+    alert("Comprate el helado de agua")
+}
+else if (cofla >= 1 && cofla < 1.6 ) {
+    alert("Comprate el helado de crema")
+}
+
+else if (cofla >= 1.6 && cofla < 1.7 ) {
+    alert("Comprate el helado de helardix")
+}
+
+else if (cofla >= 1.7 && cofla < 1.8 ) {
+    alert("Comprate el helado de heladovich")
+}
+
+else if (cofla >= 1.8 && cofla < 2.9 ) {
+    alert("Comprate el helado de helardo")
+}
+
+else if (cofla >= 2.9) {
+    alert("Comprate el pote de 1/4KG")
+}
+
+else {
+    alert("No te alcanza")
+}
+                </code></pre>
+            </div>
+
+            <div class="problema">
+                <p>Problema B:</p>
+                <ul>
+                    <li>-Ingresar el Monto y mostrar el mas caro</li>
+                    <li>-Si hay 2 o mas, mostrar ambos</li>
+                    <li>-indicar vuelto</li>
+                </ul>
+                <pre><code class="javascript">
+...
+                </code></pre>
+            </div>
+
+            <div class="problema">
+                <p>Problema C:</p>
+                <ul>
+                    <li>-Ingresar el Monto y mostrar el mas caro</li>
+                    <li>-Si hay 2 o mas, mostrar ambos</li>
+                    <li>-indicar vuelto</li>
+                </ul>
+                <pre><code class="javascript">
+...
+                </code></pre>
+            </div>
+            
         </div>
     </section>
 
@@ -36,8 +128,7 @@
         <p>Franco Calegari Dalto Curso Documentacion - 2024</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
-
     <script>hljs.highlightAll();</script>
-    <script src="/problemas/problema1.js"></script>
+    <script src="../problemas/problema1.js"></script>
 </body>
 </html>
