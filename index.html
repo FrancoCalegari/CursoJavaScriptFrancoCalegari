@@ -8,7 +8,7 @@
     
 
     
-    <title>Curso javascript Franco calegari</title>
+    <title>Curso javascript Franco Calegari</title>
 </head>
 <body>
     <header>
@@ -33,7 +33,8 @@ string = "cadena de texto"
 numbrer = True
 numbrer = 19
 {alert(cualqiercosa)
-//constante (no se puede cambaiar) (se debe declarar antes si o si con un valor){const numbrer = 19}
+//constante (no se puede cambaiar) (se debe declarar antes si o si con un valor)
+const numbrer = 19
 declarar variables 
 let numbrer = 19
 <p>nota: terminar cualquier cosa con punto y coma</p>
@@ -43,18 +44,28 @@ let numbrer = 19
         </div>
         <h3>Multiples variables</h3>
         <div>
-            <p>multiple {let numeros = 19, 52, 35}</p>
-            <p>valor nulo o variable vacia intencional vs indefinida es que no se declaro en ningun momento del programa {let numbrer = null}</p>
-            <p>NaN es not ant number osea no es un numero</p>
-            <p>numero {numbrer = 19}</p>
-            <pre><code class="language-html">...</code></pre>
+            
+            <pre>
+                <code class="javascript">
+//multiple
+let numeros = 19, 52, 35
+//valor nulo o variable vacia intencional vs indefinida es que no se declaro en ningun momento del programa 
+let numbrer = null
+//NaN es not ant number osea no es un numero
+numbrer = 19
+                </code>
+            </pre>
         </div>
         <h3>Prompt</h3>
         <div>
-            <p>prompt es una funcion {prompt("hola rancio")}</p>
-            <p>guardar input de usuario en una variable {let nombre = prompt("Decime tu nombre");}</p>
-            <p>numero {numbrer = 19}</p>
-            <pre><code class="language-html">...</code></pre>
+            
+            <pre>
+                <code class="javascript">
+prompt es una funcion {prompt("hola rancio")}
+guardar input de usuario en una variable {let nombre = prompt("Decime tu nombre");}
+numero {numbrer = 19}
+                </code>
+            </pre>
         </div>
     </section>
 
@@ -126,7 +137,6 @@ let numbrer = 19
             alert(frase):<br>
             cuidado con las comillas simples y dobles solo se puede con comilla grabe(´´)<br>
             </p>
-            <p></p>
             <pre><code class="language-html">...</code></pre>
         </div>
     </section>
@@ -134,10 +144,84 @@ let numbrer = 19
     <section>
         <h2>Operadores Logicos</h2>
         <div>
-            <p>AND {let valor = a && b;}</p>
-            <p>OR {let valor = a || b;}</p>
-            <p>NOT {let valor = !a;}</p>
-            <p>nota: para comentar se utiliza {control + "}" }</p>
+            <p>Nota: solo funciona con valores booleanos osea true o false</p>
+            <pre>
+                <code class="javascript">
+OR {let valor = a || b;}
+NOT {let valor = !a;}
+//nota: para comentar se utiliza {control + "}"
+AND {let valor = a && b;}
+                </code>
+            </pre>
+            <p>Se pueden mesclar operaciones</p>
+            <pre><code class="javascript">
+//Ejemplo
+num1 = 12;
+num2 = 24;
+num3 = 25;
+num4 = 92;
+num5 = 91;
+
+op = (num1 < num2 || num2 < num3) && (!(num1 && num5) != num3);
+
+            </code></pre>
+            <p>Se resuelve como en matematicas resolviendo primero los parentesis y asi.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>CamelCase</h2>
+        <div>
+            <p>Usamos CamelCase para optimizar variables y no tener desorden y tambien javascript utiliza camelcase para sus funciones. </p>
+            <p>"camelCase" es el mejor ejemplo, getElementById es un ejemplo de como javascript utiliza dicho sistema</p>
+            <pre><code class="javascript">
+document.getElementById()
+            </code></pre>
+        </div>
+    </section>
+
+    <section>
+        <h2>Condicionales</h2>
+        <div>
+            <p>en esta seccion vamos a ver If, Else If y Else que vendria a ser el si, sino si y sino del español</p>
+            <pre><code class="javascript">
+//En codigo
+
+let edad = 25;
+
+if (edad < 18) {
+    console.log("Eres menor de edad.");
+} else if (edad >= 18 && edad < 65) {
+    console.log("Eres mayor de edad pero aún no estás jubilado.");
+} else {
+    console.log("Eres mayor de edad y estás jubilado.");
+}
+
+//En español
+
+Si la variable edad es menor que 18, se imprimirá "Eres menor de edad."
+De lo contrario, si la edad es mayor o igual a 18 y menor que 65, se imprimirá "Eres mayor de edad pero aún no estás jubilado."
+Si ninguna de las condiciones anteriores es verdadera (es decir, la edad es mayor o igual a 65), se imprimirá "Eres mayor de edad y estás jubilado."
+            </code></pre>
+        </div>
+    </section>
+
+    <section>
+        <h2>Historia de Cofla</h2>
+        <div>
+            <p>En esta seccion vamos a realizar un ejercicio que se mostrara en la siguiente pagina</p>
+            <div class="problema">
+                <p>Problema A:</p>
+                <ul>
+                    <li>-Ingresar el Monto y mostrar el mas caro</li>
+                    <li>-Si hay 2 o mas, mostrar ambos</li>
+                    <li>-indicar vuelto</li>
+                </ul>
+                <a href="/problemas/problema1.html" target="_blank">Ver Aqui</a>
+            </div>
+
+            <pre><code class="javascript">...</code></pre>
+
         </div>
     </section>
 
@@ -147,7 +231,7 @@ let numbrer = 19
             <p>numero {numbrer = 19}</p>
             <p>numero {numbrer = 19}</p>
             <p>numero {numbrer = 19}</p>
-            <pre><code class="language-html">...</code></pre>
+            <pre><code class="javascript">...</code></pre>
         </div>
     </section>
 

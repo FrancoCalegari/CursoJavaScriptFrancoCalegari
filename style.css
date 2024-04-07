@@ -113,9 +113,12 @@ footer {
 code {
 	/*aqui va el fondo negro con el texto en lo que es importante*/
 	border-radius: 15px;
-	width: 60%;
-}
-
-.ss {
-	color: cornflowerblue;
+	width: 90%;
+	margin: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	border-radius: 15px;
+	box-shadow: .2px 6px 28px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: .2px 6px 28px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: .2px 6px 28px 0px rgba(0,0,0,0.3);
 }
