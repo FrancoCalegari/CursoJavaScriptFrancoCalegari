@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/base16/windows-10.css">
+    
+
+    
     <title>Curso javascript Franco calegari</title>
 </head>
 <body>
@@ -21,14 +25,21 @@
         <h2>Variables</h2>
         <h3>Tipos de variables</h3>
         <div>
-            <p>Variables {recipiente = "papel;"}</p>
-            <p>string {string = "cadena de texto"}</p>
-            <p>boleano {numbrer = True}</p>
-            <p>numero {numbrer = 19}</p>
-            <p>formas de mostrar variable {alert(cualqiercosa)}</p>
-            <p>constante (no se puede cambaiar) (se debe declarar antes si o si con un valor){const numbrer = 19}</p>
-            <p>declarar variables {let numbrer = 19}</p>
-            <p>nota: terminar cualquier cosa con punto y coma</p>
+            <p>Variables recipiente = "papel;"</p>
+            <pre>
+                <code class="javascript">
+let Hola = "Hola mundo";
+string = "cadena de texto"
+numbrer = True
+numbrer = 19
+{alert(cualqiercosa)
+//constante (no se puede cambaiar) (se debe declarar antes si o si con un valor){const numbrer = 19}
+declarar variables 
+let numbrer = 19
+<p>nota: terminar cualquier cosa con punto y coma</p>
+                </code>
+            </pre>
+           
         </div>
         <h3>Multiples variables</h3>
         <div>
@@ -36,12 +47,14 @@
             <p>valor nulo o variable vacia intencional vs indefinida es que no se declaro en ningun momento del programa {let numbrer = null}</p>
             <p>NaN es not ant number osea no es un numero</p>
             <p>numero {numbrer = 19}</p>
+            <pre><code class="language-html">...</code></pre>
         </div>
         <h3>Prompt</h3>
         <div>
             <p>prompt es una funcion {prompt("hola rancio")}</p>
             <p>guardar input de usuario en una variable {let nombre = prompt("Decime tu nombre");}</p>
             <p>numero {numbrer = 19}</p>
+            <pre><code class="language-html">...</code></pre>
         </div>
     </section>
 
@@ -60,6 +73,7 @@
             <p>var x = 10; // x es igual a 10</p>
             <p>numero {numbrer = 19}</p>
             <p>numero {numbrer = 19}</p>
+            <pre><code class="language-html">...</code></pre>
         </div>
 
         <h3>Operadores asignacion</h3>
@@ -91,6 +105,7 @@
             a >= b;<br>
             dando como resultado valores booleanos
             </p>
+            <pre><code class="language-html">...</code></pre>
         </div>
     </section>
 
@@ -112,6 +127,7 @@
             cuidado con las comillas simples y dobles solo se puede con comilla grabe(´´)<br>
             </p>
             <p></p>
+            <pre><code class="language-html">...</code></pre>
         </div>
     </section>
 
@@ -131,12 +147,17 @@
             <p>numero {numbrer = 19}</p>
             <p>numero {numbrer = 19}</p>
             <p>numero {numbrer = 19}</p>
+            <pre><code class="language-html">...</code></pre>
         </div>
     </section>
 
     <footer>
         <p>Franco Calegari Dalto Curso Documentacion - 2024</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+    <script>hljs.highlightAll();</script>
+
     <script src="app.js"></script>
 </body>
 </html>

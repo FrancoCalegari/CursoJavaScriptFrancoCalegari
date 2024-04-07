@@ -110,6 +110,12 @@ footer {
 	-moz-box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
 }
 
-.code {
+code {
 	/*aqui va el fondo negro con el texto en lo que es importante*/
+	border-radius: 15px;
+	width: 60%;
+}
+
+.ss {
+	color: cornflowerblue;
 }
