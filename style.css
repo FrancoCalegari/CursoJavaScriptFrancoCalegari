@@ -79,9 +79,20 @@ nav ul li a:hover {
 section {
     padding: 15px;
     background-color: #ffffff;
-    width:  80%;
+    width:  85%;
     margin: auto;
     margin-top: 1.5rem;
     border-radius: 15px;
-    box-shadow: #2c2a27 2px 2px;
+	box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+}
+
+h2, h3 {
+	margin-bottom: .5rem;
+	margin-top: 0.5rem;
+}
+
+.code {
+	
 }
