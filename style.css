@@ -19,6 +19,10 @@ body {
 	background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 }
 
+.logo {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .fix-nav {
 	width: 100%;
 	max-width: 80%;
@@ -93,6 +97,19 @@ h2, h3 {
 	margin-top: 0.5rem;
 }
 
+footer {
+    padding: 15px;
+    background-color: #ffffff;
+    width: 100%;
+	text-align: center;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 15px 15px 0px 0px;
+	box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 6px 28px 0px rgba(0,0,0,0.3);
+}
+
 .code {
-	
+	/*aqui va el fondo negro con el texto en lo que es importante*/
 }
