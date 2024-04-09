@@ -33,11 +33,12 @@ string = "cadena de texto"
 numbrer = True
 numbrer = 19
 {alert(cualqiercosa)
-//constante (no se puede cambaiar) (se debe declarar antes si o si con un valor)
+//constante (no se puede cambaiar)
+//(se debe declarar antes si o si con un valor)
 const numbrer = 19
 declarar variables 
 let numbrer = 19
-<p>nota: terminar cualquier cosa con punto y coma</p>
+//nota: terminar cualquier cosa con punto y coma
                 </code>
             </pre>
            
@@ -90,33 +91,30 @@ var x = 10; // x es igual a 10
         <div>
       
             <pre><code class="javascript">
-                <p>var x = 10; // x es igual a 10</p>
-                <p>var x = 5;
-                    x += 3; // Ahora x es igual a 8</p>
-                <p>var x = 10;
-                    x -= 4; // Ahora x es igual a 6</p>
-                <p>var x = 3;
-                    x *= 5; // Ahora x es igual a 15</p>
-                <p>var x = 20;
-                    x /= 4; // Ahora x es igual a 5</p>
-                <p>var x = 10;
-                    x %= 3; // Ahora x es igual a 1</p>
-                <p>operador de igualdad<br>
-                    a == b;<br>
-                </p>
-                <p>operador de distintio de<br>
-                    a != b;
-                </p>
-                <p>operador de igualdad extricto(si es el mismo tipo de datos y el valor de datos)<br>
-                    a === b;<br>
-                </p>
-                <p>Operador mayoe que menor que menor o igual, etc.<br>
-                a < b;<br>
-                a > b;<br>
-                a <= b;<br>
-                a >= b;<br>
-                dando como resultado valores booleanos
-                </p>
+var x = 10; // x es igual a 10
+var x = 5;
+    x += 3; // Ahora x es igual a 8
+var x = 10;
+    x -= 4; // Ahora x es igual a 6
+var x = 3;
+    x *= 5; // Ahora x es igual a 15
+var x = 20;
+    x /= 4; // Ahora x es igual a 5
+var x = 10;
+    x %= 3; // Ahora x es igual a 1
+//operador de igualdad
+    a == b;
+//operador de distintio de
+    a != b;
+//operador de igualdad extricto(si es el mismo tipo de datos y el valor de datos)
+    a === b;
+//Operador mayoe que menor que menor o igual, etc.
+a < b;
+a > b;
+a <= b;
+a >= b;
+//dando como resultado valores booleanos
+                
             </code></pre>
         </div>
     </section>
@@ -124,21 +122,25 @@ var x = 10; // x es igual a 10
     <section>
         <h2>Concatenacion</h2>
         <div>
-            <p>tenemos dos variables que la unimos en otra osea concatenar:</p>
-            <p>saludo = "Hola Franco";<br>
-                pregunta = "¿Como estas?";<br>
-                frase = saludo + pregunta;<br>
-                alert(frase);<br>
-                document.write(frase)<br>
-            </p>
+            <p>Tenemos dos variables que la unimos en otra osea concatenar:</p>
+            <pre><code class="javascript">
+
+saludo = "Hola Franco";
+pregunta = "¿Como estas?";
+frase = saludo + pregunta;
+alert(frase);
+document.write(frase)
+                
+            </code></pre>
             <h3>Backtiks</h3>
             <p>Ejemplo: <br>
-            nombre = "Franco";<br>
-            frase = ´soy ${nombre} y estoy volado´;<br>
-            alert(frase):<br>
-            cuidado con las comillas simples y dobles solo se puede con comilla grabe(´´)<br>
-            </p>
-            <pre><code class="language-html">...</code></pre>
+
+            <pre><code class="javascript">
+nombre = "Franco";
+frase = ´soy ${nombre} y estoy volado´;
+alert(frase):
+//cuidado con las comillas simples y dobles solo se puede con comilla grabe(´´)
+            </code></pre>
         </div>
     </section>
 
@@ -213,20 +215,18 @@ Si ninguna de las condiciones anteriores es verdadera (es decir, la edad es mayo
             <p>En esta seccion vamos a realizar un ejercicio que se mostrara en la siguiente pagina</p>
             <div class="problema">
                 <p>Problema A:</p>
-                <ul>
+                <ul style="margin-bottom: 8px;">
                     <li>-Ingresar el Monto y mostrar el mas caro</li>
                     <li>-Si hay 2 o mas, mostrar ambos</li>
                     <li>-indicar vuelto</li>
                 </ul>
-                <a href="./problemas/problema1.html" target="_blank">Ver Aqui</a>
+                <a href="./problemas/problema1.html" target="_blank" style="background-color: #eee; border-radius: 8px; padding: 3px; border: solid black 2px;">Ver Aqui</a>
             </div>
-
-            <pre><code class="javascript">...</code></pre>
 
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <h2>Lorem</h2>
         <div>
             <p>numero {numbrer = 19}</p>
@@ -234,13 +234,12 @@ Si ninguna de las condiciones anteriores es verdadera (es decir, la edad es mayo
             <p>numero {numbrer = 19}</p>
             <pre><code class="javascript">...</code></pre>
         </div>
-    </section>
+    </section> -->
 
     <footer>
         <p>Franco Calegari Dalto Curso Documentacion - 2024</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
-<!-- and it's easy to individually load additional languages -->
     <script>hljs.highlightAll();</script>
 
     <script src="app.js"></script>
